@@ -1,6 +1,6 @@
 #!/bin/bash
  
-for i in $( ./digbit.py $1);
+for i in $( digbit.py $1);
 do
         dotcheck=$( echo "$i" | grep "\." | wc -l)
         echo -n "$i ";
